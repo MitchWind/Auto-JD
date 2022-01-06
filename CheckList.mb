@@ -1,0 +1,51 @@
+| 编号 | 名称 | 文件 | 自动 |时间|
+| ---- | ----| ----| ----|----|
+|1|单独收牛牛|jd_jxmc_getCoin|true|cron: 0,30 * * * *|
+|2|京喜工厂：肯德基、沃尔玛|jd_jxgc_stock|true|cron: 0 * * * *|
+|3|逛好物领京豆|jd_ifanli|true|cron: 0 5,0 * * *|
+|4|健康社区|jd_health|true|cron: 35 0,6,18 * * *|
+|5|农场补充任务|jd_fruit_moreTask|true|cron: 0 11,12 * * *|
+|6|京东账号 CK 检测|jd_checkCookie|true|cron: 10 * * * *|
+|7|财富岛捡贝壳挂后台|jd_cfd_shell|true|cron: 10 0 * * *|
+|8|牛牛福利|jx_nnfls|true|1 0,9,19,23 * * *|
+|9|下单返红包助力|jd_order_cashback|true|cron: 30 0,9,17 * * *|
+|10|京喜牧场兑换新品通知|jd_jxmc_stock|true|cron: 0 * * * *|
+|11|京喜财富岛库存监控|jd_jxmc_stock|false||
+|12|京喜财富岛-合成游戏|jd_cfd_game|true|cron: 30 * * * *|
+|13|领京豆-任务|jd_bean_box|true|cron: 1 0,9,12,18 * * *|
+|14|东东世界|jd_ddWorld|true|cron: 5 0,8,20 * * *|
+|15|京东-锦鲤红包|jd_jinli_hongbao|true|cron: 1 0,6,18 * * *|
+|16|京喜-88红包-宝箱|jx_box|true|cron: 5 0,6,12 * * *|
+|17|京喜工厂|jd_jxgc|true|cron: 30 * * * *|
+|18|京东汽车兑换|jd_car_exchange|true|0 0 * * *|
+|19|京东快递签到|jd_kd|true|10 0 * * *|
+|20|进店领豆|jd_shop|true|10 0 * * *|
+|21|幸运大转盘|jd_market_lottery|true|4 10 * * *|
+|22|京东家庭号 |jd_family |true|1 12,23 * * *|
+|23|京喜牧场 |jd_jxmc |true|cron: 10 0,12,18 * * *|
+|24|东东健康社区收集能量 |jd_health_collect |true|5-45/20 * * * *|
+|25|金榜创造营 |jd_gold_creator |true|13 1,22 * * *|
+京东秒秒币 jd_ms 10 7 * * *
+女装盲盒 jd_nzmh 35 1,23 * * *
+京东汽车 jd_car 10 7 * * *
+京东直播 jd_live 10-20/5 12 * * *
+省钱大赢家之翻翻乐 jd_big_winner 20 * * * *
+领金贴 jd_jin_tie 10 0 * * *
+取关京东店铺商品 jd_unsubscribe 55 23 * * *
+京东资产变动通知 jd_bean_change 2 9 * * *
+闪购盲盒 jd_sgmh 20 8 * * *
+京喜财富岛 jd_cfd 0 * * * *
+东东健康社区 jd_health2 13 1,6,22
+签到领现金 jd_cash 2 0-23/4 * * *
+京东极速版红包 jd_speed_redpocke 10 0,22 * * *
+口袋书店 jd_bookshop 1 8,12,18 * * *
+京东金融养猪猪 jd_pigPet 12 0-23/6 * * *
+东东萌宠 jd_pet 15 6-18/6 * * *
+种豆得豆 jd_plantBean 1 7-21/2 * * *
+东东工厂 jd_jdfactory 10 * * * *
+东东超市 jd_superMarket 11 * * * *
+|-|摇京豆| jd_club_lottery|debug |5 0,23 * * *|
+东东农场 jd_fruit 5 6-18/6 * * *
+京东极速版 jd_speed_sign 0 7,19 * * *
+京东京喜工厂 jd_dreamFactory 10 * * * *
+jd_moneyTree
